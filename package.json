@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/ms-rest-azure-js": "^2.0.1",
+    "@azure/ms-rest-js": "^2.0.4",
+    "azure-cognitiveservices-textanalytics": "^3.0.0",
+    "azure-storage": "^2.10.3",
+    "azure-storage-as-promised": "^0.8.3",
+    "cognitive-tools": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

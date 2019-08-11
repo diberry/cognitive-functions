@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "function-blob-upload/{name}",
+      "connection": "diberryassetmgrtest_STORAGE"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "outputQueueItem",
+      "queueName": "function-blob-detect",
+      "connection": "diberryassetmgrtest_STORAGE"
+    }
+  ],
+  "disabled": false
+}

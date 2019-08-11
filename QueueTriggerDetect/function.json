@@ -1,0 +1,19 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "function-blob-detect",
+      "connection": "diberryassetmgrtest_STORAGE"
+    },
+    {
+      "name": "outputQueueItem",
+      "type": "queue",
+      "direction": "out",
+      "path": "function-blob-translate",
+      "connection": "diberryassetmgrtest_STORAGE"
+    }
+  ],
+  "disabled": false
+}
